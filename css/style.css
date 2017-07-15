@@ -1,0 +1,248 @@
+.logo{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+	margin-top: 35px;
+	margin-left: 20px;
+	color: #2d3950;
+}
+.img-logo{
+	margin-bottom: 40px;
+}
+.header{
+	background: url('../img/bg.jpg');
+	height: 795px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	background-position: center;
+}
+
+.header h1{		
+	text-transform: uppercase;
+	font-size: 120px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	margin-top: 210px;
+}
+.header p{
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+hr{
+	height: 1px;
+	width: 75%;
+	color: #15a4fa;
+	background-color: #15a4fa;
+	border: none;
+	margin-bottom: 40px;
+}
+
+.btn{
+	padding: 15px 30px;
+	border-radius: 5px;
+	-webkit-transition: border-color 0.4s, color 0.4s;
+	transition: border-color 0.4s, color 0.4s;
+	margin-top: 60px;
+}
+.btn-primary{
+	background: none;
+	color: #fff;
+	border-color: #15a4fa;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+	background: #15a4fa;
+	color: #fff;
+	border-color: #15a4fa;
+}
+.simple{
+	background-color: #f6f9f9;
+
+}
+.simple h2{
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	margin-top: 75px;
+	margin-bottom: 25px;
+
+}
+.simple p{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 110px;
+}
+.scrolldown{
+	color: #fff;
+	margin-top: 140px;
+}
+/**Features**/
+.pro{
+	background-color: #f6f9f9;
+}
+.pro h2{
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+.pro p{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 110px;
+}
+.featured-item{
+	text-align: center;
+}
+
+.featured-item .icon{
+	border: 1px #48baff solid;
+	margin: 65px auto;
+	border-radius: 1px;
+	width: 95px;
+	height: 95px;
+	display: block;
+	margin-bottom: 60px;
+	background-image: linear-gradient(to right, #48baff, #48baff 50%, #5fc3ff 50%);
+}
+
+.featured-item .icon i{
+	line-height: 90px;	
+	color: #fff;
+
+}
+.featured-item h3{
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+
+}
+.featured-item p{
+	font-size: 15px;
+}
+
+.portfolio-item{
+	position: relative;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.portfolio-item .mask{
+	position: absolute;
+	top:0;
+	left: 15px;
+	right: 15px;
+	height: 100%;
+	transition: all 0.4s;
+	opacity: 0;
+}
+
+.fa-search-plus{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-25px;
+	margin-left: -50px;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	background-color: inherit;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	border: 1px solid #fff;
+}
+.fa-link{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:-25px;
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	background-color: inherit;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	border: 1px solid #fff;
+}
+.portfolio-item:hover .mask{
+	opacity: .8;
+	background-color: #2bacfa;
+}
+.text{
+	background: url(../img/bg2.jpg);
+	height: 795px;
+	background-position: center;
+}
+.text h2{
+	color: #fff;
+	text-align: center;
+	margin-top: 75px;
+	font-size: 41px;
+}
+.text p{
+	margin-top: 25px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+
+.form-group{
+	background-color: rgba(255, 255, 255, 0.0);
+}
+.form-control{
+background-color: rgba(255, 255, 255, 0.0);
+margin-bottom: 15px;
+}
+.form-group .btn{
+	margin-top: 10px;
+	padding: 15px 75px;
+	float: right;
+}
+.form-group label{
+	margin-top: 25px;
+	color: #fff;
+}
+
+footer p{
+	margin-top: 35px;
+	margin-bottom: 40px;
+	color: #c2c4c4;
+}
+ul.social-icons{
+	margin-top: 35px;
+	margin-bottom: 40px;
+	list-style: none;
+	padding: 0;
+}
+ul.social-icons > li{
+	float: left;
+	margin-right: 25px;
+}
+ul.social-icons > li > a{
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	border-radius: 1%;
+	background: #15a4fa;
+	display: block;
+	text-align: center;
+}
+@media only screen and (max-width: 767px) {
+
+   .header h1 {
+      font-size: 3em;
+   }
+   .form-group .btn{
+    padding:12px 30px;
+    font-size:80%;
+   }
+   }
